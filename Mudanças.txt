@@ -3,3 +3,7 @@ Criação do repositório, Vazio.
 
 #COMMIT 02
 Site completo, tema: VERDE
+
+#COMMIT 03
+Site completo, tema: AZUL
+Adicionado: favicon.ico

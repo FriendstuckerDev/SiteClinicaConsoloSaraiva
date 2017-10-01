@@ -10,7 +10,7 @@ header{
   color:white;
   padding:10px;
   height:70px;
-  border-bottom: #006532 2px solid;
+  border-bottom: #25334e 2px solid;
   background-color: black;
   -webkit-box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.5);
   -moz-box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.5);
@@ -39,7 +39,7 @@ header span{
   margin: 5px 0 0 0;
   height:70px;
   background-color: #f3f3f3;
-  border-bottom: #006532 6px solid;
+  border-bottom: #25334e 6px solid;
 }
 #doc1{
   position: inline-block;
@@ -99,8 +99,8 @@ header span{
   min-height: 70px;
   text-align: center;
   background-color: #f3f3f3;
-  border-top: #006532 6px solid;
-  border-bottom: #006532 1px solid;
+  border-top: #25334e 6px solid;
+  border-bottom: #25334e 1px solid;
   -webkit-box-shadow: 1px 2px 14px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 1px 2px 14px 0px rgba(0,0,0,0.5);
   box-shadow: 1px 2px 14px 0px rgba(0,0,0,0.5); 
@@ -110,8 +110,8 @@ header span{
   min-height: 70px;
   text-align: center;
   background-color: #f3f3f3;
-  border-top: #006532 1px solid;
-  border-bottom: #006532 1px solid;
+  border-top: #25334e 1px solid;
+  border-bottom: #25334e 1px solid;
   -webkit-box-shadow: 1px 2px 14px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 1px 2px 14px 0px rgba(0,0,0,0.5);
   box-shadow: 1px 2px 14px 0px rgba(0,0,0,0.5); 
@@ -119,7 +119,7 @@ header span{
 #infos-1{  
   height: 70px;
   background-color: #f3f3f3;
-  border-top: #006532 1px solid; 
+  border-top: #25334e 1px solid; 
   -webkit-box-shadow: 1px 1px 14px 3px rgba(0,0,0,0.5);
   -moz-box-shadow: 1px 1px 14px 3px rgba(0,0,0,0.5);
   box-shadow: 1px 0px 14px 3px rgba(0,0,0,0.5); 
@@ -173,7 +173,7 @@ header span{
   margin: auto;
   font-size: 20px;
   color: white;
-  background-color: #006532;
+  background-color: #25334e;
   border: white 1px solid;
   -webkit-border-radius: 80px;
   -moz-border-radius: 80px;
@@ -203,7 +203,7 @@ header span{
   margin: auto;
   font-size: 20px;
   color: white;
-  background-color: #006532;
+  background-color: #25334e;
   border: white 1px solid;
   -webkit-border-radius: 80px;
   -moz-border-radius: 80px;
@@ -224,7 +224,7 @@ header span{
   align-items: center; 
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #006532;
+  background-color: #25334e;
  
 }
 .flex-box-infos{
