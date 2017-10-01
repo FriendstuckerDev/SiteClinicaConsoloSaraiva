@@ -1,0 +1,488 @@
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+  padding:0;
+  margin:0;
+  background-color: white;
+}
+
+/* Header */
+header{
+  color:white;
+  padding:10px;
+  height:70px;
+  border-bottom: #006532 2px solid;
+  background-color: black;
+  -webkit-box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.5);
+  -moz-box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.5);
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.5); 
+}
+header #small-logo{
+  max-height: 80px;
+  max-width: 130px;
+  margin: auto;
+  text-align: center;
+  border: 3px solid white;
+}
+header #small-logo h3{
+  margin: auto;
+  font-size: 18px;
+  font-family: 'Century-gothic', sans-serif;
+}
+header span{
+  padding-left: 40px;
+  font-size: 13px;
+  font-family: 'Century-gothic', sans-serif;
+}
+
+/* Doc Names */
+#doc-names{
+  margin: 5px 0 0 0;
+  height:70px;
+  background-color: #f3f3f3;
+  border-bottom: #006532 6px solid;
+}
+#doc1{
+  position: inline-block;
+  max-height: 65px; 
+  max-width: 50%;
+  float:left;
+  margin: 5px 0 0 15px;
+  text-align:center;
+}
+#doc2{
+  position: inline-block;
+  max-height: 65px; 
+  max-width: 50%;
+  float:right;
+  margin: 5px 15px 0 0;
+  text-align:center;
+}
+#name1,#name2{
+  font-size: 23px;
+}
+#crm1,#crm2{
+  font-size: 13px;
+  color: grey;
+}
+
+/* Image */
+.image-wrapper{
+  height: 400px;
+  width: 100%;
+}
+.doc-image{
+  height: 400px;
+  background-image: url(../images/santos.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#transparent-box{
+  background-color: black;
+  opacity: 0.6;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+#medium-logo img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+
+/* Infos */
+#infos-especs{ 
+  padding: 20px 10px 0px 10px;
+  min-height: 70px;
+  text-align: center;
+  background-color: #f3f3f3;
+  border-top: #006532 6px solid;
+  border-bottom: #006532 1px solid;
+  -webkit-box-shadow: 1px 2px 14px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 1px 2px 14px 0px rgba(0,0,0,0.5);
+  box-shadow: 1px 2px 14px 0px rgba(0,0,0,0.5); 
+}
+#infos-plans{ 
+  padding: 20px 10px 0px 10px;
+  min-height: 70px;
+  text-align: center;
+  background-color: #f3f3f3;
+  border-top: #006532 1px solid;
+  border-bottom: #006532 1px solid;
+  -webkit-box-shadow: 1px 2px 14px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 1px 2px 14px 0px rgba(0,0,0,0.5);
+  box-shadow: 1px 2px 14px 0px rgba(0,0,0,0.5); 
+}
+#infos-1{  
+  height: 70px;
+  background-color: #f3f3f3;
+  border-top: #006532 1px solid; 
+  -webkit-box-shadow: 1px 1px 14px 3px rgba(0,0,0,0.5);
+  -moz-box-shadow: 1px 1px 14px 3px rgba(0,0,0,0.5);
+  box-shadow: 1px 0px 14px 3px rgba(0,0,0,0.5); 
+}
+#infos-2{  
+  height: 70px;
+  text-align: center;
+  background-color: #f3f3f3;
+  -webkit-box-shadow: 1px 1px 14px 3px rgba(0,0,0,0.5);
+  -moz-box-shadow: 1px 1px 14px 3px rgba(0,0,0,0.5);
+  box-shadow: 1px 0px 14px 3px rgba(0,0,0,0.5); 
+}
+#infos-fotos{ 
+  display: flex;
+  display: -moz-flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  background-color: black;
+}
+
+#infos-plans, #infos-especs span{
+  font-size: 35px;
+  color: black;
+}
+
+/* Flex Boxes Especs */
+.flex-container-especs{
+  display: flex;
+  display: -moz-flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  width: 100%;
+  height: 160px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flex-box-especs{
+  min-height: 30px;
+  width: 140px;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  font-size: 20px;
+  color: white;
+  background-color: #006532;
+  border: white 1px solid;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  border-radius: 80px;
+  -webkit-box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.5);
+  -moz-box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.5);
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* Flex Boxes Plans */
+.flex-container-plans{
+  display: -webkit-flex;
+  display: flex;
+  display: -moz-flex;
+  flex-direction: row;
+  width: 100%;
+  height: 180px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+}
+.flex-box-plans{
+  min-height: 30px;
+  width: 140px;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  font-size: 20px;
+  color: white;
+  background-color: #006532;
+  border: white 1px solid;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  border-radius: 80px;
+  -webkit-box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.5);
+  -moz-box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.5);
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* Tel e Address*/
+.flex-container-infos{
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100px;
+  align-items: center; 
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #006532;
+ 
+}
+.flex-box-infos{
+  min-height: 40px;
+  width: 380px;
+  text-align: center;
+  padding: 18px 0px 20px 0px;
+  margin: auto;
+  font-size: 21px;
+  color: white; 
+}
+
+/* Dividers */
+#divider{
+  margin: 0;
+  padding: 0;
+  min-height: 200px;
+  width: 1px;
+  background-color: white;
+  -webkit-box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.35);
+  -moz-box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.35);
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.35);
+}
+
+/* Modal */
+/* Style the Image Used to Trigger the Modal */
+.myImg {
+  height: 200px;
+  width: 200px;
+  margin: 30px auto;
+  display: block;
+  border: white 2px solid;
+  border-radius: 10px;
+  cursor: zoom-in;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.myImg:hover {
+  opacity: 0.6;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 50px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 65%;
+}
+
+.modal-content img{
+  border: white 2px solid;
+  border-radius: 10px;	
+}
+/* Add Animation - Zoom in the Modal */
+.modal-content {
+  -webkit-animation-name: zoom-in;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-name: zoom-in;
+  -moz-animation-duration: 0.5s;
+  -o-animation-name: zoom-in;
+  -o-animation-duration: 0.5s;
+  animation-name: zoom-in;
+  animation-duration: 0.5s;
+}
+
+/* Zoom in animation*/
+@-webkit-keyframes zoom-in {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom-in {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+@-moz-keyframes zoom-in {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+@-o-keyframes zoom-in {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Footer */
+footer{
+  height: 18px;
+  padding: 6px;
+  margin: auto;
+  color: #ffffff;
+  background-color: black;
+  border-top: white 1px solid;
+}
+footer #dev{
+  margin: auto;
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* Tooltip */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: red blue yellow transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media(max-width: 700px){
+  header #small-logo,
+  header #small-logo h3{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+  
+  header{
+    padding-bottom:20px;
+  }
+  
+  header #small-logo{
+	margin-top: 8px;
+  }
+  
+  #doc-names{
+	padding-top: 15px;
+    padding-left: 11px;
+    height: 65px;
+  }
+  
+  #doc1{
+	width: 100%;
+	margin: auto;
+  }
+  
+  #doc2{
+	width: 100%;
+    margin: auto;
+  }
+  
+  #name1,#name2{
+	font-size: 19px;
+  }
+  
+  #crm1,#crm2{
+	font-size: 11px;
+  }
+  
+  #infos{
+	min-height: 50px;
+	padding-bottom: 15px;
+  }
+  
+  #divider{
+	display: none;  
+  }
+  
+  #medium-logo{
+	position: relative;
+	top: 60px;
+  }
+  
+  .flex-container-especs{
+	flex-direction: column;
+	min-height: 350px;
+  }
+  
+  .flex-container-plans{
+	flex-direction: column;
+	height: 410px;
+  }
+  
+  .doc-image{
+	background-attachment: scroll;  
+  }
+  
+  .modal-content {
+    width: 100%;
+    height: auto;
+  }
+
+  .close{
+    right: 47%;	
+    top: 7%;
+  }
+
+  .modal{
+    padding-top: 140px;	
+  }
+
+}
